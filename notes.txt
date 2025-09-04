@@ -1,0 +1,31 @@
+1. from medical book we extract all documents
+2. after this we create different chunks (chunks1, chunks2, chunks3)      #llama having 4026 size length
+3. generating model that generate Embedding
+$. we build different different vector enbedding
+6. after that build sementic index
+7. after that build knowledge base(pinecone vector DB)
+
+
+
+1. user send so query
+2. query/vector Embedding
+3. knowled base 
+4. goes to llm(open ai source large language model)
+
+
+
+Tools we are using:
+1. open ai llm
+2. pinecone
+3. flask
+4. github
+5. aws / simple / ci-cd deployment
+
+
+when you create end-to-end project then
+1. we must to create folder structure
+2. also pipeline
+
+
+
+__init__.py == it is a constructor that can be call from anywhere, if i want to call some function then we dont need to write all function simply call it 
